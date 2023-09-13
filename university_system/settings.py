@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'vercel_app.wsgi.app'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'neondb',
         'USER': 'ziad-elnaggar',
         'PASSWORD': '3emsNbyA5wfQ',
