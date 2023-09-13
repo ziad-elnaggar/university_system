@@ -23,12 +23,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-vfzw28w#0#=yr-p5*_!$+hyoubo6j7ci-_v*l82jl4$4l8jk*)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Add the URL of your frontend
-]
+ALLOWED_HOSTS = ['*']
+##CORS_ALLOWED_ORIGINS = [
+##   "http://localhost:3000",  # Add the URL of your frontend
+##]
+CORS_ALLOW_ALL_ORIGINS = True
 
 # Application definition
 
