@@ -92,10 +92,10 @@ WSGI_APPLICATION = 'vercel_app.wsgi.app'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'university_system',
-        'USER': 'postgres',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
+        'NAME': 'neondb',
+        'USER': 'ziad-elnaggar',
+        'PASSWORD': '3emsNbyA5wfQ',
+        'HOST': 'ep-fancy-snow-94388214.us-east-2.aws.neon.tech',
     }
 }
 
