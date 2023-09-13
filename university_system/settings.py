@@ -25,10 +25,10 @@ SECRET_KEY = 'django-insecure-vfzw28w#0#=yr-p5*_!$+hyoubo6j7ci-_v*l82jl4$4l8jk*)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
-##CORS_ALLOWED_ORIGINS = [
-##   "http://localhost:3000",  # Add the URL of your frontend
-##]
+ALLOWED_HOSTS = ['*', '.vercel.app']
+# CORS_ALLOWED_ORIGINS = [
+#   "http://localhost:3000",  # Add the URL of your frontend
+# ]
 CORS_ALLOW_ALL_ORIGINS = True
 
 # Application definition
@@ -82,7 +82,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'university_system.wsgi.application'
+# WSGI_APPLICATION = 'university_system.wsgi.application'
+WSGI_APPLICATION = 'vercel_app.wsgi.app'
 
 
 # Database
